@@ -4,6 +4,8 @@ from PyQt5.QtCore import QTimer, Qt
 from PyQt5.QtGui import QPixmap, QIcon
 import random
 
+#Defining the dice class
+
 class diceRoller(QWidget):
     def __init__(self):
         super().__init__()
@@ -30,7 +32,6 @@ class diceRoller(QWidget):
         self.setLayout(layout)
         self.btn = QPushButton("Roll", self)
         self.btn2 = QPushButton("Reset Score", self)
-
         self.btn.setGeometry(500, 500, 100, 500)
         self.btn.setFixedSize(200, 80)
         self.btn2.setFixedSize(200, 80)
