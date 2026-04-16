@@ -4,7 +4,6 @@ from PyQt5.QtCore import QTimer, Qt
 from PyQt5.QtGui import QPixmap, QIcon
 import random
 
-#Defining the dice class
 
 class diceRoller(QWidget):
     def __init__(self):
